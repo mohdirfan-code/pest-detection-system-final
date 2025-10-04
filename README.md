@@ -109,7 +109,7 @@ You should see a message confirming the server is running on http://127.0.0.1:80
 Terminal 2: Start the Frontend App
 
 # Navigate to the frontend-streamlit folder
-cd app
+cd frontend-streamlit
 
 # Run the Streamlit application
 streamlit run app.py
