@@ -1,0 +1,45 @@
+# Python
+**/venv/
+**/__pycache__/
+*.pyc
+
+# Data & Models (Do not upload large files to GitHub)
+# The model should be downloaded from a release, not stored in the repo.
+models/*.pt
+backend/app/knowledge_base.db
+*.pdf
+*.csv
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+npm-debug.log
+```eof
+
+### **Step 2: Push Your Code to GitHub**
+
+Now, in your terminal, run the following commands one by one from the **root directory** of your project (`D:\pest-detection-system-final`).
+
+```bash
+# Initialize a new Git repository
+git init
+
+# Add all your files (except those in .gitignore)
+git add .
+
+# Create your first commit
+git commit -m "Initial commit: Full-stack pest detection application"
+
+# Set your main branch name
+git branch -M main
+
+# Add the URL of your GitHub repository
+git remote add origin https://github.com/mohdirfan-code/pest-detection-system-final
+
+# Push your code to GitHub
+git push -u origin main
